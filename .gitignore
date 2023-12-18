@@ -1,0 +1,44 @@
+# 忽略目录
+/read-book-uniapp/node_modules
+/read-book-uniapp/.hbuilderx/*
+/read-book-uniapp/.idea/*
+/read-book-uniapp/
+/read-book-uniapp/# 忽略文件
+/read-book-uniapp/*.log
+/read-book-uniapp/**/*.tsbuildinfo
+/read-book-uniapp/.eslintcache
+/read-book-uniapp/pnpm-lock.yaml
+/read-book-uniapp/.eslintrc-auto-import.json
+/read-book-uniapp/typings/
+
+
+/house/target/
+/house/!.mvn/wrapper/maven-wrapper.jar
+/house/.DS_Store
+/house/mi/.DS_Store
+/house/house.log
+/house/
+/house/### STS ###
+/house/.apt_generated
+/house/.classpath
+/house/.factorypath
+/house/.project
+/house/.settings
+/house/.springBeans
+/house/.sts4-cache
+/house/
+/house/### IntelliJ IDEA ###
+/house/.idea
+/house/*.iws
+/house/*.iml
+/house/*.ipr
+/house/
+/house/### NetBeans ###
+/house/nbproject/private/
+/house/build/
+/house/nbbuild/
+/house/dist/
+/house/nbdist/
+/house/.nb-gradle/%
+
+
