@@ -2,7 +2,6 @@
 /read-book-uniapp/node_modules
 /read-book-uniapp/.hbuilderx/*
 /read-book-uniapp/.idea/*
-/read-book-uniapp/
 /read-book-uniapp/# 忽略文件
 /read-book-uniapp/*.log
 /read-book-uniapp/**/*.tsbuildinfo
@@ -17,7 +16,6 @@
 /house/.DS_Store
 /house/mi/.DS_Store
 /house/house.log
-/house/
 /house/### STS ###
 /house/.apt_generated
 /house/.classpath
@@ -26,13 +24,11 @@
 /house/.settings
 /house/.springBeans
 /house/.sts4-cache
-/house/
 /house/### IntelliJ IDEA ###
 /house/.idea
 /house/*.iws
 /house/*.iml
 /house/*.ipr
-/house/
 /house/### NetBeans ###
 /house/nbproject/private/
 /house/build/

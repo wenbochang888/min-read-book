@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.2.xsd"
+       default-lazy-init="false">
+
+
+<!--    &lt;!&ndash; 导入外部文件配置 &ndash;&gt;-->
+<!--    <bean id="propertyConfigurer" class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">-->
+<!--        <property name="ignoreUnresolvablePlaceholders" value="true" />-->
+<!--        <property name="locations">-->
+<!--            <list>-->
+<!--                <value>classpath:key.properties</value>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+<!--    <bean id="myPropertiesConfigurer" class="com.tianya.conf.MyPropertiesConfigurer">-->
+<!--        <property name="locations">-->
+<!--            <list>-->
+<!--                <value>classpath:key.properties</value>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+
+    <bean id="houseAll" class="com.tianya.entity.HouseAll">
+        <property name="name" value="${person.name2:houseAll}"></property>
+        <property name="age" value="18"></property>
+        <property name="houseB" ref="houseB"></property>
+    </bean>
+
+    <bean id="houseAA" class="com.tianya.entity.HouseA">
+        <property name="name" value="houseAA"></property>
+        <property name="age" value="18"></property>
+    </bean>
+
+    <bean id="car" class="com.tianya.entity.Car" lazy-init="true">
+        <property name="name" value="card"></property>
+        <property name="age" value="18"></property>
+    </bean>
+
+    <bean id="user" class="com.tianya.entity.UserServiceA">
+    </bean>
+
+    <bean id="userServiceB" class="com.tianya.entity.UserServiceB">
+    </bean>
+
+<!--    <bean class="net.paoding.rose.jade.context.spring.JadeBeanFactoryPostProcessor" />-->
+
+
+    <bean class="com.tianya.entity.BeanNoId"></bean>
+    <bean class="com.tianya.entity.BeanNoId"></bean>
+    <bean class="com.tianya.entity.BeanNoId"></bean>
+
+</beans>
