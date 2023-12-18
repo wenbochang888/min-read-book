@@ -16,7 +16,7 @@
 
 ### **正文**
 1. 前端代码：read-book-uniapp
-2. 后端代码：house/src/main/java/com/tianya/controller/house/ArticleController.java (其余全是无用代码)
+2. 后端代码：house
 3. 如果您在阅读中有什么好的建议想与我分享，欢迎评论留言。
 4. 小程序前端、后端源码都在github上开源。所有文章的PDF版本在github以及公众号都有下载，欢迎关注我的公众号："**程序员博博**"，与我交流
 
