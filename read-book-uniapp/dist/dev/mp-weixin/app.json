@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/books",
+    "pages/download",
+    "pages/read"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#45B05D",
+    "backgroundColor": "#45B05D",
+    "navigationStyle": "default",
+    "renderingMode": "seperated",
+    "pageOrientation": "portrait"
+  },
+  "tabBar": {
+    "color": "#474747",
+    "selectedColor": "#45B05D",
+    "backgroundColor": "#F2F2F2",
+    "list": [
+      {
+        "pagePath": "pages/books",
+        "text": "书架",
+        "iconPath": "static/images/tabBar/ic_nav_news_normal.png",
+        "selectedIconPath": "static/images/tabBar/ic_nav_news_actived.png"
+      },
+      {
+        "pagePath": "pages/download",
+        "text": "下载",
+        "iconPath": "static/images/tabBar/ic_nav_my_normal.png",
+        "selectedIconPath": "static/images/tabBar/ic_nav_my_actived.png"
+      }
+    ]
+  },
+  "permission": {},
+  "lazyCodeLoading": "requiredComponents",
+  "style": "v2",
+  "usingComponents": {}
+}

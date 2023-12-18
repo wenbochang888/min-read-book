@@ -1,0 +1,1 @@
+"use strict";const a=require("../common/vendor.js"),e=a._({routes:[{meta:{tabBar:!0},path:"/pages/books",aliasPath:"/",name:"Books"},{meta:{tabBar:!0},path:"/pages/download",name:"Download"},{path:"/pages/read",name:"Read"}]});exports.r=e;

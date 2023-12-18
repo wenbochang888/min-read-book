@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js"),r=require("../api/api.js"),a=e.b({__name:"download",setup(c){const n=e.r([]);return r.a().then(o=>n.value=o),(o,p)=>({a:e.h(n.value,(t,u,_)=>e.k({a:t.type=="text"},t.type=="text"?{b:e.t(t.content)}:t.type=="img"?{d:e.u(r.b)+t.content}:{e:e.t(t.type)},{c:t.type=="img",f:t.content}))})}});wx.createPage(a);
