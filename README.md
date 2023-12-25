@@ -21,5 +21,6 @@
 4. 小程序前端、后端源码都在github上开源。所有文章的PDF版本在github以及公众号都有下载，欢迎关注我的公众号："**程序员博博**"，与我交流
 
 ### 微信小程序 
-1. 微信搜索：博博的小玩意
+1. 微信搜索：**博博的小玩意**
+
 ![博博的小玩意](https://github.com/wenbochang888/min-read-book/blob/master/qr.jpg)
