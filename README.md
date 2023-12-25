@@ -22,4 +22,4 @@
 
 ### 微信小程序 
 1. 微信搜索：博博的小玩意
-![博博的小玩意](https://github.com/wenbochang888/house/blob/master/src/img/1.png)
+![博博的小玩意](https://github.com/wenbochang888/min-read-book/blob/master/qr.jpg)
